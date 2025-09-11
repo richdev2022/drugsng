@@ -97,7 +97,7 @@ export default function Index() {
           />
           <div className="text-xl font-bold text-blue-700">Drugs.ng</div>
         </div>
-        <DownloadPdfButton url={PDF_URL} />
+        {/* <DownloadPdfButton url={PDF_URL} /> */}
       </header>
 
       {/* COVER */}
@@ -390,7 +390,7 @@ export default function Index() {
       <Page background="gradient" className="p-10">
         <div className="flex h-full flex-col items-center justify-center text-center">
           <img 
-            src="https://cdn.builder.io/api/v1/image/assets%2Fd98f0891d6ae4a92bb1ee9f8bab25f39%2F701aeb98cabd4d7b97610fc0d6532d90?format=webp&width=800" 
+            src="https://cdn.builder.io/api/v1/image/assets%2Fd98f0891d6ae4a92bb1ee9f8bab25f39%2F701aeb98cabd4d7b97610fc0d6532d90?format=webp&width=1000" 
             alt="Drugs.ng logo" 
             className="h-16 w-16 object-contain" 
           />
